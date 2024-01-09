@@ -106,9 +106,9 @@
 
 /* Mobil slider */
 @media (max-width: 1023px) {
-  /* .slider_wrapper .slide-button {
+  .slider_wrapper .slide-button {
     display: none !important;
-  } */
+  }
   .slider_wrapper .image_list {
     gap: 10px;
     margin-bottom: 15px;

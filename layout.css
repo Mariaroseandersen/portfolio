@@ -1,0 +1,764 @@
+/* Desktop */
+@media (min-width: 800px) {
+  /* Farve afnsit - tema siderne */
+  .tema_farve_intro {
+    height: 30vh;
+    background-color: #878680;
+  }
+  .forside_intro {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Farve afsnit - Forside, Portfolio og Om mig */
+  .farve_intro {
+    height: 70vh;
+    background-color: #878680;
+  }
+
+  /* ------------------------------Forside - desktop--------------------------------- */
+  .forside_intro {
+    display: grid;
+    grid-template-columns: 1.6fr 1.4fr;
+  }
+
+  .forside_element2 {
+    padding-top: 24rem;
+  }
+
+  .velkommen_sektion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+  }
+
+  .forside_sektion2 p {
+    font-family: "catamaran", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.1rem;
+    padding-bottom: 2px;
+  }
+
+  .forside_element1 img {
+    width: 57%;
+    height: 80%;
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+  }
+
+  .forside_element2 p {
+    font-size: 1.4rem;
+    font-family: "cormorant-garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    line-height: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .forside_sektion2 {
+    padding-top: 5rem;
+  }
+
+  .velkommen_sektion {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+
+  .forside_sektion2 h2 {
+    color: black;
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  /* ------------------------------Portfolio siden - desktop--------------------------------- */
+  .sek1 h2 {
+    color: white;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .horizontal_line {
+    width: 36%;
+    height: 0.5px;
+    border: 0 none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: white;
+  }
+
+  .sek1 {
+    padding-top: 4.5rem;
+  }
+
+  .sek1 a {
+    text-decoration: none;
+  }
+
+  .portfolio_intro {
+    display: grid;
+    grid-template-columns: 1.8fr 1.4fr;
+  }
+
+  .portfolio_intro {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 4rem;
+  }
+
+  .portfolio_intro p {
+    color: white;
+  }
+
+  .portfolio_sektion1 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    padding-top: 5rem;
+  }
+
+  .portfolio_sektion2,
+  .portfolio_sektion3,
+  .portfolio_sektion4,
+  .portfolio_sektion5 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+  }
+
+  .portfolio_sektion1 h2,
+  .portfolio_sektion2 h2,
+  .portfolio_sektion3 h2,
+  .portfolio_sektion4 h2,
+  .portfolio_sektion5 h2 {
+    padding: 4rem 0 0 14rem;
+  }
+
+  /* ------------------------------Om mig siden - desktop--------------------------------- */
+  .om_mig_farve_intro {
+    height: 70vh;
+    background-color: #878680;
+  }
+  .om_mig_intro {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+  }
+
+  .om_mig_intro {
+    padding: 5rem 8rem;
+  }
+  .om_mig_element1 img {
+    width: 69%;
+    height: 92%;
+    margin-top: 1rem;
+  }
+
+  .om_mig_citat p {
+    padding: 3rem 13rem 0 7rem;
+  }
+
+  .om_mig_element3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.5rem 0 2rem 8rem;
+  }
+
+  .om_mig_sektion2 h2 {
+    text-align: center;
+    padding-top: 4rem;
+  }
+
+  .om_mig_sektion3 h2 {
+    padding-bottom: 1rem;
+  }
+
+  .om_mig_element2 h2 {
+    font-size: 2rem;
+    color: white;
+    line-height: 2rem;
+    margin: 2rem 5rem 0.7rem 0;
+    text-align: center;
+  }
+
+  .om_mig_element2 h3 {
+    font-size: 1.4rem;
+    color: white;
+    line-height: 1rem;
+    margin-bottom: 30px;
+    margin-right: 5rem;
+    text-align: center;
+  }
+
+  .om_mig_element2 p {
+    font-size: 1.1rem;
+    color: white;
+    line-height: 2rem;
+  }
+
+  .om_mig_element4 img {
+    width: 80%;
+    height: 80%;
+    margin-left: 10rem;
+  }
+
+  /* Regler for flere sider */
+
+  .temaer_layout {
+    padding: 4rem 10rem 0;
+  }
+
+  .forside_intro h1 {
+    padding-top: 4rem;
+  }
+
+  /* ------------------------------TEMA 2--------------------------------- */
+  /* Tema 2 - sektion 1*/
+
+  .t2_sektion1 h2 {
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+
+  .t2_sektion1_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .t2_sektion1_3 {
+    padding-top: 22px;
+  }
+
+  .t2_sektion1_4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+  }
+
+  .t2_sektion1_4 p {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .t2_sektion1_4 img {
+    padding-top: 1rem;
+    width: 100%;
+    height: 90%;
+  }
+
+  /* Tema 2 - sektion 2 */
+  .t2_sektion2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding-top: 8rem;
+    padding-left: 7rem;
+  }
+
+  .t2_sektion2_1 p {
+    margin-left: 6rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+  .t2_sektion2_1 {
+    padding-top: 2rem;
+  }
+  .t2_sektion2_1 img {
+    width: 60%;
+    height: auto;
+  }
+
+  /* Tema 2 - sektion 3 */
+  .t2_sektion3 h2 {
+    text-align: center;
+    padding-top: 8rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .t2_sektion3_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  /* ------------------------------TEMA 3--------------------------------- */
+  .tema_3_list li {
+    list-style-type: none;
+  }
+  /* Tema 3 - sektion 1 */
+  .t3_sektion1 h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .t3_sektion1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .t3_sektion1_2 {
+    padding-top: 1.2rem;
+  }
+
+  .t3_sektion1_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 10px;
+  }
+
+  .t3_sektion1_3 img {
+    width: 100%;
+    height: 70%;
+  }
+
+  .t3_sektion1_3 p {
+    padding-left: 7rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .desktop_img p {
+    padding-left: 14rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  /* Tema 3 - Sektion 2 */
+  .t3_sektion2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding-top: 6rem;
+    gap: 5px;
+  }
+
+  .t3_sektion2 img {
+    width: 100%;
+    height: 90%;
+  }
+
+  .t3_sektion2_1,
+  .t3_sektion2_2 {
+    padding-top: 2.5rem;
+  }
+
+  .t3_sektion2_1 p,
+  .t3_sektion2_2 p {
+    padding-left: 6rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  /* Tema 3 - Sektion 3 */
+  .t3_sektion3 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding-top: 8rem;
+    gap: 10px;
+  }
+
+  .t3_sektion3 img {
+    width: 100%;
+    height: 80%;
+  }
+
+  .t3_sektion3_1,
+  .t3_sektion3_2 {
+    padding-top: 2.5rem;
+  }
+
+  .t3_sektion3_1 p,
+  .t3_sektion3_2 p {
+    padding-left: 6rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  /* Tema 3 - Sektion 4 */
+  .t3_sektion4 h2 {
+    text-align: center;
+    padding-top: 4rem;
+  }
+
+  .t3_sektion4_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .t3_sektion4_2 {
+    padding-top: 1.4rem;
+  }
+  /* ------------------------------TEMA 4--------------------------------- */
+  /* Tema 4 - sektion 1 */
+
+  .t4_sektion1 h2 {
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+
+  .t4_sektion1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .t4_sektion1_2 {
+    padding-top: 1.4rem;
+    padding-bottom: 3rem;
+  }
+
+  .t4_sektion1_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+  }
+
+  .t4_sektion1_3 img {
+    width: 100%;
+    height: 55%;
+  }
+
+  .t4_sektion2 h2 {
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+
+  .t4_sektion2_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .t4_sektion2_2 {
+    padding-top: 1.3rem;
+  }
+
+  .t4_sektion2_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2rem;
+  }
+
+  .t4_sektion2_4 {
+    width: 80%;
+    height: auto;
+    padding-left: 16rem;
+    padding-top: 2rem;
+  }
+  /* ------------------------------TEMA 5--------------------------------- */
+  /* Tema 5 - sektion 1 */
+
+  .t5_sektion1 h2 {
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+
+  .t5_sektion1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .t5_sektion1_2 {
+    padding-top: 1.4rem;
+  }
+
+  .t5_sektion1_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  .t5_sektion2 h2 {
+    text-align: center;
+    padding-bottom: 0.5rem;
+    padding-top: 8rem;
+  }
+
+  .t5_sektion2_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .t5_sektion2_2 {
+    padding-top: 1.4rem;
+  }
+
+  .t5_sektion2_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  .t5_sektion2_3 img {
+    width: 100%;
+    height: 70%;
+  }
+  .t5_sektion3_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .t5_sektion3 h2 {
+    text-align: center;
+    padding-bottom: 1.5rem;
+    padding-top: 3rem;
+  }
+}
+/* ------------------------------MOBIL--------------------------------- */
+/* Mobil */
+@media (max-width: 800px) {
+  /* Farve afsnit for - Forside, Portfolio og Om mig */
+
+  .farve_intro {
+    height: 110vh;
+    background-color: #878680;
+  }
+
+  /* ------------------------------Forside - mobil--------------------------------- */
+
+  .index_farve {
+    height: 135vh;
+    background-color: #878680;
+  }
+  .forside_element1 h1 {
+    text-align: center;
+    padding-top: 4rem;
+  }
+
+  .forside_element1 img {
+    display: block;
+    margin: auto;
+    padding-top: 1rem;
+  }
+
+  .forside_element2 p {
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    color: white;
+  }
+
+  .knap_1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .forside_sektion2,
+  .forside_element1 {
+    padding: 10px;
+  }
+
+  .forside_element4 {
+    padding-top: 3rem;
+  }
+
+  .forside_sektion2 h2 {
+    padding-top: 2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  /* ------------------------------Portfolio side - mobil --------------------------------- */
+
+  .portfolio_intro h1 {
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 1.9rem;
+  }
+
+  .portfolio_intro p {
+    text-align: center;
+    color: white;
+    margin-bottom: 6rem;
+  }
+
+  .sek1 h2 {
+    text-align: center;
+    color: white;
+    margin-top: 3rem;
+    font-size: 1.3rem;
+  }
+
+  .sek1 a {
+    text-decoration: none;
+  }
+
+  .horizontal_line {
+    width: 95%;
+    height: 0.5px;
+    border: 0 none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: white;
+  }
+
+  /* ------------------------------Om mig side--------------------------------- */
+
+  .om_mig_intro,
+  .om_mig_sektion2 {
+    padding: 10px;
+  }
+
+  .om_mig_element1 img {
+    display: block;
+    margin: auto;
+    padding-bottom: 1rem;
+  }
+  .om_mig_element2 h2,
+  .om_mig_element2 h3 {
+    text-align: center;
+    color: white;
+  }
+
+  .om_mig_element2 p {
+    color: white;
+    padding-top: 1rem;
+  }
+
+  .om_mig_farve_intro {
+    height: 155vh;
+    background-color: #878680;
+  }
+
+  .om_mig_sektion2 h2 {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+  }
+
+  /* Regl for alle tema sider */
+  .temaer_layout h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .tema_farve_intro {
+    height: 40vh;
+    background-color: #878680;
+    margin-bottom: 3rem;
+  }
+
+  /* ------------------------------TEMA 2--------------------------------- */
+  .temaer_layout {
+    padding: 10px;
+  }
+
+  .forside_knap_link {
+    text-align: center;
+    font-size: 1.8rem;
+    padding-top: 4rem;
+  }
+
+  .t2_sektion1_4 img {
+    width: 90%;
+    height: 80%;
+    padding: 1rem 0 0 2rem;
+  }
+
+  .t2_sektion1_4 p {
+    margin-left: 8rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .t2_sektion2 h2,
+  .t2_sektion3 h2 {
+    padding-top: 4rem;
+  }
+
+  .t2_sektion2_1 p {
+    margin-left: 8rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  /* ------------------------------TEMA 3--------------------------------- */
+  .t3_sektion1_3 p {
+    padding: 0 0 0.5rem 10rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .t3_sektion2 {
+    padding-top: 4rem;
+  }
+
+  .t3_sektion2_1 p,
+  .t3_sektion2_2 p {
+    padding: 0 0 0.5rem 10.5rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .t3_sektion3_1 img,
+  .t3_sektion3_2 img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 80%;
+  }
+
+  .t3_sektion3_1 p,
+  .t3_sektion3_2 p {
+    padding: 0 0 0.5rem 10rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .t3_sektion3 h2 {
+    padding-top: 4rem;
+  }
+
+  .t3_sektion4 {
+    padding-top: 4rem;
+  }
+
+  /* ------------------------------TEMA 4--------------------------------- */
+
+  .t4_sektion1_3 img {
+    width: 100%;
+    height: 90%;
+  }
+
+  .t4_sektion1_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+
+  .t4_sektion2 h2 {
+    padding-top: 4rem;
+  }
+
+  /* ------------------------------TEMA 5--------------------------------- */
+  .t5_sektion1_3 img {
+    width: 70%;
+    height: auto;
+    margin-left: 3.5rem;
+    padding: 0.5rem;
+  }
+
+  .t5_sektion2 h2,
+  .t5_sektion3 h2 {
+    padding-top: 4rem;
+  }
+
+  .t5_sektion2_3 {
+    padding-top: 1rem;
+  }
+  .t5_sektion2_3 p {
+    padding-left: 9rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+}

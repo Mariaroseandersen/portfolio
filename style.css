@@ -1,0 +1,130 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Baggrundsfarve */
+body {
+  background-color: #f8f8f4;
+}
+
+/* Tekster */
+h1 {
+  font-size: 2.2rem;
+  font-family: "cormorant-garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  letter-spacing: 4px;
+}
+
+h2 {
+  color: black;
+  font-size: 1.8rem;
+  font-family: "cormorant-garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "cormorant-garamond", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.3rem;
+  padding-bottom: 1px;
+}
+
+p {
+  font-family: "catamaran", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1rem;
+  max-width: 70ch;
+}
+
+br {
+  margin-bottom: 0.9rem;
+}
+
+/* Knapper  */
+.knap_1 {
+  text-decoration: underline;
+  font-size: 1.2rem;
+  font-family: "catamaran", sans-serif;
+  color: white;
+}
+
+.knap_2 {
+  text-decoration: underline;
+  font-size: 1.2rem;
+  font-family: "catamaran", sans-serif;
+  color: black;
+}
+
+/* Pil op på temasiderne */
+.go-top-btn {
+  position: fixed;
+  bottom: 150px;
+  right: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  background: #f8f8f4;
+  border: 1.5px solid black;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling af links på temasider */
+.forside_knap_link a {
+  text-decoration: underline;
+  font-size: 1.2rem;
+  font-family: "catamaran", sans-serif;
+  color: white;
+}
+
+/* Footer */
+.separator {
+  border: 0.5px solid black;
+  margin-top: 5rem;
+}
+
+.separator_ommig {
+  margin-top: 30rem;
+  border: 0.5px solid black;
+}
+
+.footer_sektion {
+  text-align: center;
+}
+
+.footer_logo a {
+  letter-spacing: 0.2rem;
+  font-size: 4rem;
+  font-family: "cormorant-garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+  padding-top: 4rem;
+}
+
+.footer_txt a {
+  font-family: "catamaran", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1rem;
+  color: black;
+  padding: 25px;
+  letter-spacing: 0.1rem;
+}

@@ -1,0 +1,142 @@
+/* menu og logo */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 30px auto 20px;
+}
+
+#logo {
+  font-size: 2rem;
+  font-family: "cormorant-garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+}
+
+.menu a {
+  display: block;
+  font-weight: lighter;
+  color: black;
+  font-size: 1.2rem;
+  font-family: "catamaran", sans-serif;
+  padding: 10px;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+.menu li:last-child {
+  margin-right: 0;
+}
+
+ul li ul.dropdown li {
+  display: block;
+}
+
+ul li ul.dropdown {
+  width: 10%;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  background-color: #f8f8f4;
+  line-height: 4rem;
+  margin-top: 0;
+}
+
+ul li:hover ul.dropdown {
+  display: block;
+}
+
+.burger {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.burger .line {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 6px;
+  transition: 0.2s linear;
+}
+
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .menu {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+
+  nav.active .menu {
+    display: block;
+    background-color: #f8f8f4;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+
+  nav.active .menu li {
+    margin: 10px 50px;
+  }
+
+  nav.active .menu a {
+    font-size: 1.2rem;
+  }
+
+  ul li ul.dropdown li {
+    display: block;
+  }
+
+  ul li ul.dropdown {
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    display: none;
+    background-color: #cecec4;
+    line-height: 4rem;
+    margin-top: 0;
+  }
+
+  ul li:hover ul.dropdown {
+    display: block;
+  }
+}
